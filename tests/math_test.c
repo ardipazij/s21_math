@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "s21_math.h"
+#include "../functions/s21_math.h"
 
 START_TEST(abs_test) {
   ck_assert_int_eq(s21_abs(5), abs(5));
